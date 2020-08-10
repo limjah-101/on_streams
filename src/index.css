@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.nav{
+    margin-top: 1rem !important;
+    border: none !important;
+    padding: 1rem 0;
+    max-width: 1170px;
+    margin: auto !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header-btn{
+    cursor: pointer;
+    border-radius: 50px !important;
+    transition: all .3s ease-in-out !important;
+    font-weight: bold !important;
+}
+.signout{
+    color: #DF523C;
+    font-weight: bold;
+    border: 2px solid #DF523C !important;    
+}
+.signout span{
+    color: #DF523C;
+}
+.signout:hover{
+    background: #DF523C !important;
+}
+.signout:hover span, .signout:hover .red{
+    color: white !important;
+}
+
+
+.signin{
+    color: #478bbe;   
+    font-weight: bold;
+    border: 2px solid #478bbe !important;  
+}
+.signin span{
+    color: #478bbe;    
+}
+.signin:hover{
+    background: #478bbe !important;
+}
+.signin:hover span, .signin:hover .blue{
+    color: white !important;    
 }
